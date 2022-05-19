@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
             catInfo.text = cat.toString()
         }
 
+
+
         val btnShowCopyProperty: MaterialButton = findViewById(R.id.btn_show_copy_properties)
         btnShowCopyProperty.setOnClickListener {
             val copyCat: Cat = cat.copy(age = 2)
